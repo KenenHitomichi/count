@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; list-style: none; }
+html, body { height: 100%; }
+html { font-size: 100px; }
+
+.be-center { position: absolute; height: 8rem; width: 6rem; top: 0; bottom: 0; left: 0; right: 0; margin: auto; box-shadow: 0px 0px 5px #666;}
+.score-box { display: flex;  flex-wrap: wrap; flex-direction: row; justify-content: center; align-content: center; padding: .65rem 0;}
+.score-box section { display: block; flex: 0 0 1.5rem; height: 1.5rem; line-height: 1.5rem; text-align: center; border: 1px solid #333; border-radius: 50%; font-size: .6rem; margin: .1rem; overflow: hidden;}
+.score-button { display: inline-block; height: 100%; width: 100%;}
+#submit { display: block; background: none; outline: none; border: none; font-size: .6rem; height:100%; width:100%; background-color: #07FF02;}
+.makegreen { background-color: green; }

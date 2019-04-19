@@ -19,12 +19,12 @@
      else {
       $row = mysqli_fetch_row($retval);
       $num = $row[0];
-      $sql = "SELECT * FROM singer$num WHERE ip='$ip'";
+      $sql = "SELECT * FROM rater$num WHERE ip='$ip'";
       $rs = mysqli_query($con,$sql);
       if (mysqli_num_rows($rs)>0) {  echo "<script>alert('You already have posted your point!');</script>"; }
       else {
         $grade = $_POST["score"];
-        $sql = "INSERT INTO singer$num (ip, grade) VALUES ('$ip', $grade)";
+        $sql = "INSERT INTO rater$num (ip, grade) VALUES ('$ip', $grade)";
         mysqli_query($con, $sql);
       }
      }
