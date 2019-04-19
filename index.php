@@ -18,6 +18,7 @@
   </script>
 </head>
 <body>
+  <div style="text-align: center; padding-top:.6rem; font-size:20px;">请给选手打分</div>
   <div class="be-center">
     <form class="score-box" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data" target='ifr'>
       <section><label for="score0" class="score-button" onclick="refresh(0)">0</label><input type="radio" name="score" id="score0" value="0" hidden/></section>

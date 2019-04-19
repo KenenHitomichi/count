@@ -2,4 +2,7 @@
 html, body { height: 100%; }
 html { font-size: 100px; }
 
-.hide { display: none; }
+.hide { display: none!important; }
+.main { width: 6rem;  margin: auto; left: 0; right: 0; padding-top: 2rem;}
+.button { display: block; background: none; border: none; outline: none; font-size: 2rem; background-color: red; border-radius: 50%; width: 6rem; height: 6rem;}
+.time { display: block; text-align: center; font-size: 2rem; margin-top: 1rem; }
