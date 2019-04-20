@@ -26,6 +26,7 @@
         $grade = $_POST["score"];
         $sql = "INSERT INTO singer$num (ip, grade) VALUES ('$ip', $grade)";
         mysqli_query($con, $sql);
+        alert("successfully post!");
       }
      }
     }
